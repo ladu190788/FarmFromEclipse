@@ -10,18 +10,7 @@
 
   <name>FarmPickMavenProject</name>
   <url>http://maven.apache.org</url>
-  <distributionManagement>
-  	<repository>
-  		<id>ftp-letsdeveloper-release</id>
-  		<url>ftp://letsdeveloper.com/release</url>
-  	</repository>
-  	
-  	<snapshotRepository>
-  		<id>letsdeveloper-staging</id>
-  		<url>ftp://${project.build.directory}/staging</url>
-  	</snapshotRepository>
-  	
-  </distributionManagement>
+
   
   
  <build>
